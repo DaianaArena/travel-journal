@@ -5,11 +5,12 @@ import destinations from './data.js';
 
 export default function App() {
   const Destinations = destinations.map(destination => {
+
     return (
       <Cards
         key={destination.id}
         title={destination.title}
-        location={destination.location}
+        location={destination.location.toUpperCase()}
         googleMapsUrl={destination.googleMapsUrl}
         startDate={destination.startDate}
         endDate={destination.endDate}
