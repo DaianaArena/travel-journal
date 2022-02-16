@@ -13,12 +13,12 @@ export default function Cards(Destinations) {
             <div class="card-body text-start">
 
                 <div>
-                <i class="bi bi-geo-alt-fill text-danger"></i>
-                <span>{Destinations.location}</span>
+                <i class="bi bi-geo-alt-fill text-primary"></i>
+                <span class="location">{Destinations.location}</span>
                 <a href={Destinations.googleMapsUrl} target="_blank" class="text-muted m-0 p-1">View on Google Maps</a>
                 </div>
-                <h5 class="card-title">{Destinations.title}</h5>
-                <p class="card-text">
+                <h2 class="card-title">{Destinations.title}</h2>
+                <p class="card-text date">
                     {Destinations.startDate}<span> - </span>{Destinations.endDate}
                 </p>
                 <p class="card-text">{Destinations.description}</p>
