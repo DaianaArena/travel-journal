@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "limpiaCSS": "purgecss --css ./src/App.css --content *.* --output ./src/2App.css"
+    "limpiaCSS": "purgecss --css ./src/App.css --content *.* --output ./src/App.css"
   },
   "eslintConfig": {
     "extends": [
